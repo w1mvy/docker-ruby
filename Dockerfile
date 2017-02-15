@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM armhf/debian:jessie
 MAINTAINER Jimmy Cuadra <jimmy@jimmycuadra.com>
 
 RUN echo 'gem: --no-document' > /usr/local/etc/gemrc && \
